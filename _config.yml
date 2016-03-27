@@ -1,0 +1,32 @@
+# Site settings
+title: WebConfs - A blog about web conferences
+email: coolwebconfs@gmail.com
+description: A blog about my favorite web conferences.
+url: "http://webconfs.me" # the base hostname & protocol for your site
+twitter_username: guilh
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Guil Hernandez
+      layout: "post"
+      category: conferences
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+
+
+
+
+
